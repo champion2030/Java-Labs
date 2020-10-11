@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TranslateCash">
+   <children>
+      <AnchorPane layoutX="-4.0" layoutY="-4.0" prefHeight="114.0" prefWidth="609.0" style="-fx-background-color: #FF0000;">
+         <children>
+            <Label layoutX="173.0" layoutY="19.0" text="Alfa-Bank" textFill="WHITE">
+               <font>
+                  <Font name="Artifakt Element Bold" size="56.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" prefHeight="87.0" prefWidth="47.0" text="A" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Artifakt Element Bold" size="72.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="184.0" layoutY="119.0" prefHeight="35.0" prefWidth="234.0" text="Translation window" textFill="RED">
+         <font>
+            <Font name="Artifakt Element Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="card_number_field" layoutX="68.0" layoutY="188.0" prefHeight="45.0" prefWidth="476.0" promptText="Enter person's card number">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="transfer_amount_field" layoutX="68.0" layoutY="250.0" prefHeight="45.0" prefWidth="476.0" promptText="Enter the transfer amount">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="ok_button" layoutX="254.0" layoutY="335.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="92.0" style="-fx-background-color: #FF0000;" text="Ok" textFill="WHITE">
+         <font>
+            <Font name="Artifakt Element Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="exception_field" alignment="CENTER" layoutX="64.0" layoutY="154.0" prefHeight="26.0" prefWidth="476.0" textFill="RED" />
+   </children>
+</AnchorPane>

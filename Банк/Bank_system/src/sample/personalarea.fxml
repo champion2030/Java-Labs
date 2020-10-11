@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="685.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Account">
+   <children>
+      <AnchorPane layoutX="-3.0" prefHeight="155.0" prefWidth="819.0" style="-fx-background-color: #FF0000;">
+         <children>
+            <Label layoutX="269.0" layoutY="36.0" text="Alfa-Bank" textFill="WHITE">
+               <font>
+                  <Font name="Artifakt Element Bold" size="60.0" />
+               </font>
+            </Label>
+            <Label layoutX="46.0" layoutY="14.0" text="A" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Artifakt Element Bold" size="85.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-3.0" layoutY="153.0" prefHeight="532.0" prefWidth="819.0" style="-fx-background-color: #808080;">
+         <children>
+            <AnchorPane layoutX="51.0" layoutY="43.0" prefHeight="491.0" prefWidth="715.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <Label layoutX="214.0" prefHeight="68.0" prefWidth="263.0" text="Personal Area of" textFill="RED">
+                     <font>
+                        <Font name="Artifakt Element Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="128.0" prefHeight="39.0" prefWidth="181.0" text="Your work account:" textFill="RED">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="deposit_field" layoutX="214.0" layoutY="134.0" prefHeight="28.0" prefWidth="181.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="currency_field" layoutX="422.0" layoutY="134.0" prefHeight="28.0" prefWidth="84.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="168.0" prefHeight="39.0" prefWidth="181.0" text="Your login:" textFill="RED">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="217.0" prefHeight="39.0" prefWidth="181.0" text="Your password:" textFill="RED">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="259.0" prefHeight="39.0" prefWidth="181.0" text="Your INN:" textFill="RED">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="308.0" prefHeight="39.0" prefWidth="181.0" text="Your age:" textFill="RED">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="login_field" layoutX="214.0" layoutY="173.0" prefHeight="28.0" prefWidth="200.0" text="g">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="password_field" layoutX="214.0" layoutY="223.0" prefHeight="28.0" prefWidth="200.0" text="g">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="inn_field" layoutX="214.0" layoutY="264.0" prefHeight="28.0" prefWidth="200.0" text="g">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="age_field" layoutX="214.0" layoutY="314.0" prefHeight="28.0" prefWidth="200.0" text="g">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="name_surname_middle" alignment="CENTER" layoutX="10.0" layoutY="68.0" prefHeight="68.0" prefWidth="697.0" textFill="RED">
+                     <font>
+                        <Font name="Artifakt Element Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="account_photo" fitHeight="162.0" fitWidth="200.0" layoutX="478.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button fx:id="exit_button" layoutX="369.0" layoutY="424.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #FF0000;" text="Exit" textFill="WHITE">
+                     <font>
+                        <Font name="Artifakt Element Bold" size="21.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="get_cash_button" layoutX="152.0" layoutY="424.0" mnemonicParsing="false" style="-fx-background-color: #FF0000;" text="Withdraw cash" textFill="WHITE">
+                     <font>
+                        <Font name="Artifakt Element Bold" size="21.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="14.0" layoutY="354.0" prefHeight="39.0" prefWidth="181.0" text="Your card number:" textFill="RED">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="card_number_field" layoutX="214.0" layoutY="360.0" prefHeight="28.0" prefWidth="200.0" text="g">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Работа со SWING/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Работа со SWING/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Работа с серверами/OktaClient/OktaClient.iml" filepath="$PROJECT_DIR$/Работа с серверами/OktaClient/OktaClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Работа с серверами/OktaServer/OktaServer.iml" filepath="$PROJECT_DIR$/Работа с серверами/OktaServer/OktaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Работа со SWING/bank_system/bank_system.iml" filepath="$PROJECT_DIR$/Работа со SWING/bank_system/bank_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Апплеты/Апплеты.iml" filepath="$PROJECT_DIR$/Апплеты/Апплеты.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Банк/Банк.iml" filepath="$PROJECT_DIR$/Банк/Банк.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Интерфейсы/Интерфейсы.iml" filepath="$PROJECT_DIR$/Интерфейсы/Интерфейсы.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Матрицы и массивы/Матрицы и массивы.iml" filepath="$PROJECT_DIR$/Матрицы и массивы/Матрицы и массивы.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Многопоточность/Многопоточность.iml" filepath="$PROJECT_DIR$/Многопоточность/Многопоточность.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Операторы в Java/Операторы в Java.iml" filepath="$PROJECT_DIR$/Операторы в Java/Операторы в Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Пакеты/Пакеты.iml" filepath="$PROJECT_DIR$/Пакеты/Пакеты.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Программирование на Java.iml" filepath="$PROJECT_DIR$/.idea/Программирование на Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Работа с классами/Работа с классами.iml" filepath="$PROJECT_DIR$/Работа с классами/Работа с классами.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Работа с файлами/Работа с файлами.iml" filepath="$PROJECT_DIR$/Работа с файлами/Работа с файлами.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Работа со строками/Работа со строками.iml" filepath="$PROJECT_DIR$/Работа со строками/Работа со строками.iml" />
+    </modules>
+  </component>
+</project>

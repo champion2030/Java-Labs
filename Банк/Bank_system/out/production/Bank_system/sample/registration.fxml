@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="765.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Registration_Controller">
+   <children>
+      <AnchorPane layoutX="-3.0" prefHeight="208.0" prefWidth="808.0" style="-fx-background-color: #008B8B;">
+         <children>
+            <AnchorPane prefHeight="80.0" prefWidth="207.0" style="-fx-background-color: #FF0000;">
+               <children>
+                  <Label layoutX="68.0" layoutY="25.0" text="Alfa-Bank" textFill="WHITE">
+                     <font>
+                        <Font name="Artifakt Element Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="22.0" layoutY="10.0" text="A" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="Artifakt Element Bold" size="43.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="220.0" layoutY="27.0" prefHeight="53.0" prefWidth="368.0" text="Credit card application" textFill="WHITE">
+               <font>
+                  <Font name="ArtifaktElement-Regular" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="220.0" layoutY="80.0" text="-Use 60 days without% on credit for purchases and cash withdrawals" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="220.0" layoutY="107.0" text="-1000 points as a gift" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="220.0" layoutY="134.0" text="- credit limit up to $ 10,000" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="220.0" layoutY="161.0" text="- service cost from $ 500 per month" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="name_field" layoutX="59.0" layoutY="243.0" prefHeight="37.0" prefWidth="323.0" promptText="Enter name" style="-fx-border-radius: 10;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="surname_field" layoutX="59.0" layoutY="299.0" prefHeight="37.0" prefWidth="323.0" promptText="Enter surname" style="-fx-border-radius: 10;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="middle_name_field" layoutX="59.0" layoutY="355.0" prefHeight="37.0" prefWidth="323.0" promptText="Enter middle name" style="-fx-border-radius: 10;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password_field1" layoutX="415.0" layoutY="243.0" prefHeight="38.0" prefWidth="323.0" promptText="Enter password" style="-fx-border-radius: 10;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="password_field2" layoutX="415.0" layoutY="299.0" prefHeight="38.0" prefWidth="323.0" promptText="Repeat password" style="-fx-border-radius: 10;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="Inn_field" layoutX="415.0" layoutY="355.0" prefHeight="37.0" prefWidth="323.0" promptText="Enter INN" style="-fx-border-radius: 10;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Slider fx:id="age_slider" layoutX="204.0" layoutY="507.0" showTickLabels="true" showTickMarks="true" />
+      <Label layoutX="60.0" layoutY="511.0" text="Enter age">
+         <font>
+            <Font name="ArtifaktElement-Regular" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="age_label" layoutX="204.0" layoutY="545.0" prefHeight="31.0" prefWidth="140.0">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="gender_box" editable="true" layoutX="577.0" layoutY="428.0" prefWidth="150.0" />
+      <Label layoutX="415.0" layoutY="425.0" text="Enter gender">
+         <font>
+            <Font name="ArtifaktElement-Regular" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="416.0" layoutY="526.0" text="Choose photo">
+         <font>
+            <Font name="ArtifaktElement-Regular" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="choose_photo_button" layoutX="449.0" layoutY="560.0" mnemonicParsing="false" style="-fx-background-color: #FF0000;" text="Open" textFill="WHITE">
+         <font>
+            <Font name="ArtifaktElement-Regular" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="deposit_field" layoutX="60.0" layoutY="595.0" prefHeight="37.0" prefWidth="323.0" promptText="Enter deposit" style="-fx-border-radius: 10;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="59.0" layoutY="653.0" text="Enter currency">
+         <font>
+            <Font name="ArtifaktElement-Regular" size="21.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="currency_box" editable="true" layoutX="231.0" layoutY="656.0" prefWidth="150.0" />
+      <Button fx:id="finish_button" layoutX="459.0" layoutY="693.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="107.0" style="-fx-background-color: #FF0000;" text="Finish" textFill="WHITE">
+         <font>
+            <Font name="ArtifaktElement-Regular" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel_button" layoutX="615.0" layoutY="693.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="107.0" style="-fx-background-color: #FF0000;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="ArtifaktElement-Regular" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="account_photo" fitHeight="150.0" fitWidth="200.0" layoutX="569.0" layoutY="482.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="name_exception" alignment="CENTER" layoutX="58.0" layoutY="281.0" prefHeight="17.0" prefWidth="323.0" textFill="RED" />
+      <Label fx:id="surname_exception" alignment="CENTER" layoutX="58.0" layoutY="337.0" prefHeight="17.0" prefWidth="323.0" textFill="RED" />
+      <Label fx:id="middle_name_exception" alignment="CENTER" layoutX="60.0" layoutY="392.0" prefHeight="17.0" prefWidth="323.0" textFill="RED" />
+      <Label fx:id="password_exception" alignment="CENTER" layoutX="415.0" layoutY="337.0" prefHeight="17.0" prefWidth="323.0" textFill="RED" />
+      <Label fx:id="inn_exception" alignment="CENTER" layoutX="416.0" layoutY="392.0" prefHeight="17.0" prefWidth="323.0" textFill="RED" />
+      <Label fx:id="age_exception" alignment="CENTER" layoutX="60.0" layoutY="580.0" prefHeight="17.0" prefWidth="323.0" textFill="RED" />
+      <Label fx:id="deposit_exception" alignment="CENTER" layoutX="60.0" layoutY="632.0" prefHeight="17.0" prefWidth="323.0" textFill="RED" />
+      <TextField fx:id="login_field" layoutX="58.0" layoutY="422.0" prefHeight="37.0" prefWidth="323.0" promptText="Enter login" style="-fx-border-radius: 10;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label fx:id="login_exception" alignment="CENTER" layoutX="58.0" layoutY="461.0" prefHeight="17.0" prefWidth="323.0" textFill="RED" />
+   </children>
+</AnchorPane>
